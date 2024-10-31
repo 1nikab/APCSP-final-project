@@ -1,0 +1,43 @@
+/* image from Adobe Stock */
+body {
+  background-color: #b8b996;
+  /* background-image: url("imgs/CPTbackground.jpg"); */
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  font-family: 'Comic Sans MS', cursive, sans-serif;  
+  text-align: center; 
+}
+
+h2, h4 {
+  color: white;
+  margin-top: 20px; 
+}
+
+button {
+  margin-top: 10px; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  background-color: #4CAF50; 
+  color: white; 
+  cursor: pointer; 
+  font-size: 16px; 
+}
+
+button:hover {
+  background-color: #45a049; 
+}
+
+input[type="text"] {
+  padding: 8px; 
+  border-radius: 5px; 
+  border: 1px solid #ccc; 
+  width: 200px; 
+  box-sizing: border-box; 
+}
+
+#result {
+  margin-top: 20px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Next Question</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <h2>Guess the country based on the flag</h2>
+  <img id="image">
+  <p id="result"></p>
+  <br><br>
+  <label for="guess">Enter your answer:</label>
+  <input type="text" id="guess">
+  <br><br>
+  <button id="checkAnswer" onclick="checkAnswer()">Check Answer</button>
+  <button id="backToHome" onclick="goToNextPage('index.html')">Back</button>
+
+  <script src="nextQuestion.js"></script>
+</body>
+
+</html>

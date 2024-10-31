@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <h2>Guess the four letter word!</h2>
+
+  <label for="FirstWord">First Word: </label>
+  <input type="text" id="firstWord" name="firstword">
+  <br><br>
+  <label for="SecondWord">Second Word: </label>
+  <input type="text" id="secondWord" name="secondword">
+  <br><br>
+  <label for="ThirdWord">Third Word: </label>
+  <input type="text" id="thirdWord" name="thirdword">
+  <br><br>
+
+  <p id="jumbledWord1"></p>
+  <p id="jumbledWord2"></p>
+  <p id="jumbledWord3"></p>
+
+  <p id="result"></p>
+
+  <img id="image">
+
+  <button id="submit" onclick="check()">Submit</button>
+  <button id="nextQuestion" style="display: none;" onclick="goToNextPage('nextQuestion.html')">Next Question</button>
+  <button id="backToHome" onclick="goToNextPage('index.html')">Back</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
